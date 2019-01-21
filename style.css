@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	align: center;
+	color: #fdbe15;
+}
+
+.heading {
+	background-color: #7BA6F1;
+	align-content: center;
+}
+
+h3 {
+	color: #fdbe15;
+}
+
+.heading {
+	text-align: center;
+	clear: left;
+}
+
+.center {
+	text-align: center;
+	background-color: #7BA6F1;
+
+}
+
+p {
+	align: center;
+	margin-top: 0px;
+ 	font-size: 16px;
+}
+
+.icons {
+	align: center;
+}
+
+img {
+	width: 50px;
+	margin: 10px;
+	align: left;
+}
+
+.footer {
+	background-color: #7BA6F1;
+	text-align: center;
+	margin-top: 10px;
+}
+
+a:link {
+	color: rgba(14,19,245,1.00);
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+
+a:hoover {
+	color: #FFD111;
+}
+
+
+p a img {
+}
+
