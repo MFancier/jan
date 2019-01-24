@@ -1,18 +1,23 @@
 @charset "utf-8";
 /* CSS Document */
 
+.container {
+	background-color: #7ba6f1;
+}
+
 h1 {
 	align: center;
-	color: #fdbe15;
+	color: #fbbd15;
 }
 
 .heading {
 	background-color: #7BA6F1;
 	align-content: center;
+	margin: 0px;
 }
 
 h3 {
-	color: #fdbe15;
+	color: #fbbd15;
 }
 
 .heading {
@@ -23,13 +28,13 @@ h3 {
 .center {
 	text-align: center;
 	background-color: #7BA6F1;
-
+	margin: 0px;
 }
 
 p {
 	align: center;
 	margin-top: 0px;
- 	font-size: 16px;
+ 	font-size: 18px;
 }
 
 .icons {
@@ -38,14 +43,23 @@ p {
 
 img {
 	width: 50px;
-	margin: 10px;
 	align: left;
+	margin-top: 10px;
+	margin-bottom: -9px;
 }
 
 .footer {
 	background-color: #7BA6F1;
 	text-align: center;
-	margin-top: 10px;
+	font-size: 30px;
+	clear: none;
+	float: none;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	text-color: #fbbd15;
 }
 
 a:link {
@@ -62,3 +76,7 @@ a:hoover {
 p a img {
 }
 
+.heading {
+	margin-top: 0px;
+	min-height: 0px;
+}
